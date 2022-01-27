@@ -1,0 +1,120 @@
+.bd-bg{
+    border: 2px solid black;
+    background-color: silver;
+    box-sizing: border-box;
+}
+.one{
+    width: 400px;
+    height: 50px;
+}
+.wrapper{
+    display: flex;
+}
+.two{
+    width: 75px;
+    height: 600px;
+}
+.three{
+    width: 325px;
+    height: 150px;
+}
+.four{
+    width: 325px;
+    height: 100px;
+}
+.wrapper-56{
+    display: flex;
+}
+.five{
+    width: 225px;
+    height: 250px;
+}
+.six{
+    width: 100px;
+    height: 250px;
+}
+.seven{
+    width: 325px;
+    height: 100px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .bd-bg{
+        border: 1px solid black;
+        background-color: cornflowerblue;
+        box-sizing: border-box;
+    }
+    .one{
+        width: 300px;
+        height: 40px;
+    }
+    .wrapper{
+        display: block;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        width: 300px;
+        height: 100px;
+    }
+    .four{
+        width: 300px;
+        height: 150px;
+    }
+    .wrapper-56{
+        display: block;
+    }
+    .five{
+        width: 300px;
+        height: 200px;
+    }
+    .six{
+        width: 300px;
+        height: 120px;
+    }
+    .seven{
+        width: 300px;
+        height: 60px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .bd-bg{
+        border: 1px solid black;
+        background-color: palegoldenrod;
+        box-sizing: border-box;
+    }
+    .one{
+        width: 200px;
+        height: 60px;
+    }
+    .wrapper{
+        display: block;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        width: 200px;
+        height: 100px;
+    }
+    .four{
+        width: 200px;
+        height: 150px;
+    }
+    .wrapper-56{
+        display: block;
+    }
+    .five{
+        width: 200px;
+        height: 180px;
+    }
+    .six{
+        width: 200px;
+        height: 200px;
+    }
+    .seven{
+        width: 200px;
+        height: 40px;
+    }
+}
+
